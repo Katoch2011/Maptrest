@@ -112,6 +112,8 @@ public class Camera_activity extends Activity implements LocationListener {
                 }else
                 {
                     Toast.makeText(getApplicationContext(),"Select a Catageory first",Toast.LENGTH_SHORT).show();
+                    ((ViewGroup) edit.getParent()).removeView(edit);
+
                 }
             }
         }).setNegativeButton("No", new DialogInterface.OnClickListener() {

@@ -122,7 +122,8 @@ public class MainActivity extends AppCompatActivity {
                             "# Use camera button to take a snapshot of the place and save it according to the catagoery or create new custom catageory \n\n" +
                             "# Search By name - user can either display image or display location of the place \n\n" +
                             "# User can access custom catageory by viewall button\n\n" +
-                            "# predifened catageories are listed as folows :-\n1.History \n2.Lesuire\n3.Education\n4.General");
+                            "# predifened catageories are listed as folows :-\n1.History \n2.Lesuire\n3.Education\n4.General\n\n" +
+                            "# click on item in list for location and long click for image ");
                     textView.setTextColor(Color.BLUE);
                     AlertDialog alert=builder.create();
                     alert.setView(textView, 50, 0, 50, 50);

@@ -80,7 +80,6 @@ public class List extends AppCompatActivity implements AdapterView.OnItemClickLi
         try {
             while (c.moveToNext()) {
                 arr.add(c.getString(0));
-                Toast.makeText(getApplicationContext(),c.getString(0),Toast.LENGTH_SHORT).show();
             }
         }catch (Exception e)
         {
@@ -124,7 +123,6 @@ public class List extends AppCompatActivity implements AdapterView.OnItemClickLi
         Name=arr.get(position).toString();
 
         Toast.makeText(getApplicationContext(),"ITEMLongCLICKED : "+Name,Toast.LENGTH_SHORT).show();
-
         Intent intent=new Intent(List.this,Display_Activity.class);
         intent.putExtra("Name",Name);
         startActivity(intent);
