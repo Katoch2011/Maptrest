@@ -118,7 +118,8 @@ public class MainActivity extends AppCompatActivity {
                     builder=new AlertDialog.Builder(MainActivity.this);
                     builder.setTitle("INFO");
                     builder.setMessage("ABOUT APP :-");
-                    textView.setText("This app lets a user mark and save the location of interests\n\n\n" +
+                    textView.setText("This app lets a user mark and save the location of interests\n(This app requires active internet connection for location services)" +
+                            "\n\n\n" +
                             "# Use camera button to take a snapshot of the place and save it according to the catagoery or create new custom catageory \n\n" +
                             "# Search By name - user can either display image or display location of the place \n\n" +
                             "# User can access custom catageory by viewall button\n\n" +
