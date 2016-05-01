@@ -4,4 +4,4 @@ User can take a snapshort with the camera button and can save the location under
 And user can customize category according to their prefrence.
 User can search by name or by viewall button.
 User can have a look at Image through longclick and by single click can access location.
-App also contains a information button to familiarise user with the app.
+App also contains an information button to familiarise user with the app.
